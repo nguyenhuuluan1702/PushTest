@@ -1,3 +1,10 @@
+void swap(int &xp, int &yp)
+{
+    int temp = xp;
+    xp = yp;
+    yp = temp;
+}
+
 void Interchange_Sort(int a[], int n)
 {
 	for(int i = 0; i<n; i++)
